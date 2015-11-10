@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.33pt}
 \beamer@sectionintoc {1}{GitHub}{3}{0}{1}
 \beamer@sectionintoc {2}{Terminology and Workflow}{6}{0}{2}
-\beamer@sectionintoc {3}{Accessing GitHub}{13}{0}{3}
-\beamer@sectionintoc {4}{GitHub and QuantNet 2.0}{17}{0}{4}
+\beamer@subsectionintoc {2}{1}{Accessing GitHub}{9}{0}{2}
+\beamer@sectionintoc {3}{GitHub and QuantNet 2.0}{20}{0}{3}

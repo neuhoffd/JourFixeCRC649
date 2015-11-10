@@ -289,6 +289,22 @@
 \section{Terminology and Workflow}
 
 \frame{
+	\frametitle{Create GitHub Account}
+	Go to www.github.com to create an account	
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{githubsignup}
+	\end{center}
+}
+
+\frame{
+	\frametitle{Install GitHub Application}
+	From www.github.com download and install the desktop application:
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{downloadgithubdesktop}
+	\end{center}
+}
+
+\frame{
 	\frametitle{Create Repository}
 	\begin{itemize}
 		\item Most basic element of GitHub
@@ -296,7 +312,26 @@
 		\item Also contains a revision history for each file
 		\item Contains an issue tracker
 	\end{itemize}
+	Three ways to create a repository:
+	\begin{enumerate}
+		\item Desktop app (recommended)
+		\item Web interface
+		\item Command line (advanced)
+	\end{enumerate}
 }
+
+\frame{
+	\frametitle{Develop}
+	Develop your project using GitHub features where sensible:
+	\begin{itemize}
+		\item Manage issues
+		\item Branch/fork code
+		\item Commit changes
+		\item Use pull requests
+	\end{itemize}
+	Keep the style guide in mind!
+}
+
 
 \frame{
 	\frametitle{Manage Issues}
@@ -336,8 +371,8 @@
 	\frametitle{Issue Pull Request}
 	A pull request
 	\begin{itemize}
-		\item asks your collaborators to consider your changes for integration into the master branch
-		\item can be issued at any time, e.g. to share screenshots
+		\item asks your collaborators to consider your changes for integration into the master branch (merge)
+		\item can be issued at any time, also for example to share screenshots
 		\item can be augmented by a pull request message to ask for help or @mention other contributors in order to induce them to comment
 		\item initiate a discussion of the changes you made
 	\end{itemize}
@@ -351,6 +386,16 @@
 		\item preserves a history of your changes by keeping the pull requests (searchable)
 	\end{itemize}
 	
+}
+
+\frame{
+	\frametitle{Finishing up}
+	\begin{itemize}
+		\item Create Metainfo.txt containing information about your Quantlet
+		\item Create readme.md as user guide (good practice)
+		\item Check your code against style guide (somewhat automated for R code)
+		\item Inform QuantNet team
+	\end{itemize}
 }
 
 \section{Accessing GitHub}
