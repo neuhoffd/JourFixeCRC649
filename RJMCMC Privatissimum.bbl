@@ -1,0 +1,25 @@
+
+
+% Bibstyle aea.bst version 2009.05.20
+
+\begin{thebibliography}{xx}
+
+\harvarditem[Campbell \harvardand\ Mankiw]{John Campbell \harvardand\ Gregory
+  Mankiw}{1989}{campbell_mankiw_1989}
+{\bf Campbell, John, and Gregory Mankiw.} 1989. ``International Evidence on the
+  Persistence of Economic Fluctuations.'' {\em Journal of Monetary Economics},
+  23:~319--333.
+
+\harvarditem[Green]{Peter~J. Green}{1995}{green_1995}
+{\bf Green, Peter~J.} 1995. ``Reversible Jump Markov Chain Monte Carlo.'' {\em
+  Biometrika}, 82:~711--732.
+
+\harvarditem[Hansen]{Gary~D. Hansen}{1985}{hansen_1985}
+{\bf Hansen, Gary~D.} 1985. ``Indivisible Labor and the Business Cycle.'' {\em
+  Journal of Monetary Economics}, 16(3):~309--327.
+
+\harvarditem[Peskun]{P.H. Peskun}{1973}{peskun_1973}
+{\bf Peskun, P.H.} 1973. ``Optimum Monte-Carlo sampling using Markov chains.''
+  {\em Biometrika}, 60:~607--612.
+
+\end{thebibliography}
