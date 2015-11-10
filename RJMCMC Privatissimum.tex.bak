@@ -389,7 +389,7 @@
 		\item Declare running version ready for audit
 	\end{enumerate}		
 	
-	After the audit is complete, the code is moved to a specific GitHub repository and appears on the QuantNet 2.0 page	
+	After the audit is complete, the code is forked to a specific GitHub repository and appears on the QuantNet 2.0 page	
 }
 
 \frame{
@@ -408,26 +408,6 @@
  	\end{center}
 
     }
-
-
-% Adding an appendix for backup slides
-\setcounter{figure}{0}
-\setcounter{table}{0}
-\appendix
-\renewcommand{\thepage}{A-\arabic{page}}
-\renewcommand{\theframenumber}{A-\arabic{framenumber}}
-\renewcommand{\insertframenumber}{A-\arabic{framenumber}}
-\renewcommand{\thefigure}{A-\arabic{figure}}
-\renewcommand{\thetable}{A-\arabic{table}}
-\renewcommand{\bibsection}{}
-
-
-\begin{frame}[allowframebreaks]
-   \frametitle{References}
-   \bibliographystyle{../aea_doi_url_href}
-   {\small \bibliography{D:/Documents/Dropbox/Dissertation/literaturegeneral}}
-\end{frame}
-
 
 \end{document}
 
