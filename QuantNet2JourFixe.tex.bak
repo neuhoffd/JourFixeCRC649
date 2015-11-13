@@ -302,6 +302,8 @@
 	
 }
 
+\section[Paradigm]{Modern Scientific Paradigm}
+
 \frame{
 	\frametitle{Modern Scientific Paradigm}
 	Modern scientific practice:
@@ -508,17 +510,7 @@
 		\item Declare running version ready for audit
 	\end{enumerate}		
 	
-	After the audit is complete, the code is forked to a specific GitHub repository and appears on the QuantNet 2.0 page	
-}
-
-\frame{
-	\frametitle{What else could one do?}
-	\begin{itemize}
-		\item Collaborate with other scientists around the world using the GitHub workflow
-		\item Fork existing Quantlets in order to improve or extend them (ask the original author!!!!)
-		\item Use Pulse and Graphs to track contributions and progress
-		\item Use Milestones to structure a project
-	\end{itemize}
+	After the audit is complete, the end product on the QuantNet 2.0 page	
 }
 
  \frame{
