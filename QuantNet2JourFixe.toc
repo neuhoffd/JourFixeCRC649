@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Reversible Jump Markov Chain Monte Carlo}{3}{0}{1}
+\beamer@sectionintoc {2}{QuantNet 2.0}{8}{0}{2}
+\beamer@sectionintoc {3}{GitHub}{10}{0}{3}
+\beamer@sectionintoc {4}{Terminology and Workflow}{13}{0}{4}
+\beamer@subsectionintoc {4}{1}{Accessing GitHub}{16}{0}{4}
+\beamer@sectionintoc {5}{GitHub and QuantNet 2.0}{27}{0}{5}

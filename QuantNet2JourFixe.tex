@@ -55,6 +55,7 @@
 %\setbeamercolor{alerted text}{fg=darkred}
 \usepackage{pgf,pgfarrows,pgfnodes,pgfautomata,pgfheaps}
 
+
 \usecolortheme[named=HUBlue]{structure}
 \usecolortheme{sidebartab}
 \setbeamercolor{alerted text}{fg=HURed}
@@ -175,6 +176,8 @@
 \usepackage{hyperref}
 \newtheorem{assumption}[theorem]{Assumption}
 \newtheorem{proposition}[theorem]{Proposition}
+
+\usepackage{epstopdf}
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 % Some new math commands %
 %%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -264,6 +267,67 @@
   \tableofcontents
   }
 
+\section[RJMCMC]{Reversible Jump Markov Chain Monte Carlo}
+\frame{
+	\frametitle{Reversible Jump MCMC}
+	Standard practice for approximation of posterior distributions for model parameters: Metropolis-Hastings samplers \vspace{0.5em}
+	
+	\textbf{Problem:} Want to analyze posterior distribution also spanning model space \\ 
+	\indent $\Rightarrow$ Dimensionality of parameter space varies\\
+	\vspace{0.5em}
+		
+	\textbf{Solution:} Reversible Jump Markov Chain Monte Carlo
+	\begin{itemize}
+		\item Generalization of Metropolis-Hastings samplers
+		\item Samples from a joint posterior distribution across different models and their corresponding parameter spaces
+	\end{itemize}	
+}
+
+
+\frame{
+	\frametitle{Posterior Distribution Across Models}
+	Posterior distribution across ARMA(p,q) models:
+	\begin{center}
+		\includegraphics[height=0.6\textheight]{PosteriorPQ_US_Draws_4000000_Filter_FDIFF}
+	\end{center}
+	$\Rightarrow$ Posterior model probabilities
+}
+
+\frame{
+	\frametitle{Posterior Distribution: Impulse Responses}
+	Can analyze posterior distribution for any statistic while accounting for model uncertainty!
+	\begin{center}
+		\includegraphics[height=0.6\textheight]{IRFs_Scaled_US_FDIFF}
+	\end{center}
+	
+}
+
+\frame{
+	\frametitle{Modern Scientific Paradigm}
+	Modern scientific practice:
+	\begin{itemize}
+		\item Transparency
+		\item Reproducibility
+	\end{itemize}
+	Also: Want to publicize new technologies! \\ \vspace{0.5em}
+	\textbf{Problem:} Need to publish source codes and data! 
+}
+
+\section{QuantNet 2.0}
+
+\frame{
+	\frametitle{The Solution}
+	QuantNet 2.0 
+	\begin{itemize}
+		\item provides a technology to easily share data and programs
+		\item provides a platform focused on scientific applications
+		\item makes technology searchable
+		\item supports transparency and reproducibility
+		\item enhances and encourages collaboration through seamless GitHub integration
+		\item visualizes connections between scientific applications
+	\end{itemize}
+}
+
 \section{GitHub}
   
 \frame{
@@ -271,157 +335,156 @@
 		\begin{itemize}
 			\item A distributed version control system (Git)
 			\item A collaboration platform (Hub)
-			\item Quasi-standard among software developers: \\ 42.9\% of professional software developers use git in some fashion
 		\end{itemize}
 }
-
-\frame{
-	\frametitle{Why use GitHub?}
-	\begin{itemize}
-		\item Version control
-		\item Distributed development
-		\item Easy branching and merging
-		\item Integration with many IDEs
-		\item Issue management
-	\end{itemize}
-}
-
-\section{Terminology and Workflow}
-
-\frame{
-	\frametitle{Create GitHub Account}
-	Go to www.github.com to create an account	
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{githubsignup}
-	\end{center}
-}
-
-\frame{
-	\frametitle{Install GitHub Application}
-	From www.github.com download and install the desktop application:
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{downloadgithubdesktop}
-	\end{center}
-}
-
-
-\subsection{Accessing GitHub}
-
-\frame{
-	\frametitle{GitHub Desktop App}
-	\begin{center}
-		\includegraphics[height=0.6\textheight]{githubdesktop}
-	\end{center}
-}
-
-\frame{
-	\frametitle{Web Interface}
-	\begin{center}
-		\includegraphics[height=0.6\textheight]{webinterface}
-	\end{center}	
-	
-}
-
-\frame{
-	\frametitle{Command Line}
-	\begin{center}
-		\includegraphics[height=0.6\textheight]{commandline}
-	\end{center}		
-}
-
-\frame{
-	\frametitle{Create Repository}
-	\begin{itemize}
-		\item Most basic element of GitHub
-		\item A project folder containing \textit{all} project files
-		\item Also contains a revision history for each file
-		\item Contains an issue tracker
-	\end{itemize}
-	Three ways to create a repository:
-	\begin{enumerate}
-		\item Desktop app (recommended)
-		\item Web interface
-		\item Command line (advanced)
-	\end{enumerate}
-}
-
-\frame{
-	\frametitle{Develop}
-	Develop your project using GitHub features where sensible:
-	\begin{itemize}
-		\item Manage issues
-		\item Branch/fork code
-		\item Commit changes
-		\item Use pull requests
-	\end{itemize}
-	Keep the style guide in mind!
-}
-
-
-\frame{
-	\frametitle{Manage Issues}
-	Use GitHub issues to record and discuss
-	\begin{itemize}
-		\item Ideas
-		\item Bugs
-		\item Enhancements
-		\item Tasks
-	\end{itemize}
-	You get a searchable history of your discussions! \\ \vspace{0.5em}
-	You can neatly organize any discussion with issue classes
-}
-
-
-\frame{
-	\frametitle{Branch Code}
-	Branching allows you to
-	\begin{itemize}
-		\item work on a copy of the master branch
-		\item to make changes without affecting the whole of the code base
-	\end{itemize}
-	
-}
-
-\frame{
-	\frametitle{Commit Changes}
-	A commit
-	\begin{itemize}
-		\item essentially uploads new versions of files
-		\item is tracked, so you have a history of changes available
-		\item can be rolled back
-	\end{itemize}
-}
-
-\frame{
-	\frametitle{Issue Pull Request}
-	A pull request
-	\begin{itemize}
-		\item asks your collaborators to consider your changes for integration into the master branch (merge)
-		\item can be issued at any time, also for example to share screenshots
-		\item can be augmented by a pull request message to ask for help or @mention other contributors in order to induce them to comment
-		\item initiate a discussion of the changes you made
-	\end{itemize}
-}
-
-\frame{
-	\frametitle{Merge Branches}
-	A merge
-	\begin{itemize}
-		\item integrates your code into the master branch
-		\item preserves a history of your changes by keeping the pull requests (searchable)
-	\end{itemize}
-	
-}
-
-\frame{
-	\frametitle{Finishing up}
-	\begin{itemize}
-		\item Create Metainfo.txt containing information about your Quantlet
-		\item Create readme.md as user guide (good practice)
-		\item Check your code against style guide (somewhat automated for R code)
-		\item Inform QuantNet team
-	\end{itemize}
-}
+%
+%\frame{
+%	\frametitle{Why use GitHub?}
+%	\begin{itemize}
+%		\item Version control
+%		\item Distributed development
+%		\item Easy branching and merging
+%		\item Integration with many IDEs
+%		\item Issue management
+%	\end{itemize}
+%}
+%
+%\section{Terminology and Workflow}
+%
+%\frame{
+%	\frametitle{Create GitHub Account}
+%	Go to www.github.com to create an account	
+%	\begin{center}
+%		\includegraphics[width=0.8\textwidth]{githubsignup}
+%	\end{center}
+%}
+%
+%\frame{
+%	\frametitle{Install GitHub Application}
+%	From www.github.com download and install the desktop application:
+%	\begin{center}
+%		\includegraphics[width=0.8\textwidth]{downloadgithubdesktop}
+%	\end{center}
+%}
+%
+%
+%\subsection{Accessing GitHub}
+%
+%\frame{
+%	\frametitle{GitHub Desktop App}
+%	\begin{center}
+%		\includegraphics[height=0.6\textheight]{githubdesktop}
+%	\end{center}
+%}
+%
+%\frame{
+%	\frametitle{Web Interface}
+%	\begin{center}
+%		\includegraphics[height=0.6\textheight]{webinterface}
+%	\end{center}	
+%	
+%}
+%
+%\frame{
+%	\frametitle{Command Line}
+%	\begin{center}
+%		\includegraphics[height=0.6\textheight]{commandline}
+%	\end{center}		
+%}
+%
+%\frame{
+%	\frametitle{Create Repository}
+%	\begin{itemize}
+%		\item Most basic element of GitHub
+%		\item A project folder containing \textit{all} project files
+%		\item Also contains a revision history for each file
+%		\item Contains an issue tracker
+%	\end{itemize}
+%	Three ways to create a repository:
+%	\begin{enumerate}
+%		\item Desktop app (recommended)
+%		\item Web interface
+%		\item Command line (advanced)
+%	\end{enumerate}
+%}
+%
+%\frame{
+%	\frametitle{Develop}
+%	Develop your project using GitHub features where sensible:
+%	\begin{itemize}
+%		\item Manage issues
+%		\item Branch/fork code
+%		\item Commit changes
+%		\item Use pull requests
+%	\end{itemize}
+%	Keep the style guide in mind!
+%}
+%
+%
+%\frame{
+%	\frametitle{Manage Issues}
+%	Use GitHub issues to record and discuss
+%	\begin{itemize}
+%		\item Ideas
+%		\item Bugs
+%		\item Enhancements
+%		\item Tasks
+%	\end{itemize}
+%	You get a searchable history of your discussions! \\ \vspace{0.5em}
+%	You can neatly organize any discussion with issue classes
+%}
+%
+%
+%\frame{
+%	\frametitle{Branch Code}
+%	Branching allows you to
+%	\begin{itemize}
+%		\item work on a copy of the master branch
+%		\item to make changes without affecting the whole of the code base
+%	\end{itemize}
+%	
+%}
+%
+%\frame{
+%	\frametitle{Commit Changes}
+%	A commit
+%	\begin{itemize}
+%		\item essentially uploads new versions of files
+%		\item is tracked, so you have a history of changes available
+%		\item can be rolled back
+%	\end{itemize}
+%}
+%
+%\frame{
+%	\frametitle{Issue Pull Request}
+%	A pull request
+%	\begin{itemize}
+%		\item asks your collaborators to consider your changes for integration into the master branch (merge)
+%		\item can be issued at any time, also for example to share screenshots
+%		\item can be augmented by a pull request message to ask for help or @mention other contributors in order to induce them to comment
+%		\item initiate a discussion of the changes you made
+%	\end{itemize}
+%}
+%
+%\frame{
+%	\frametitle{Merge Branches}
+%	A merge
+%	\begin{itemize}
+%		\item integrates your code into the master branch
+%		\item preserves a history of your changes by keeping the pull requests (searchable)
+%	\end{itemize}
+%	
+%}
+%
+%\frame{
+%	\frametitle{Finishing up}
+%	\begin{itemize}
+%		\item Create Metainfo.txt containing information about your Quantlet
+%		\item Create readme.md as user guide (good practice)
+%		\item Check your code against style guide (somewhat automated for R code)
+%		\item Inform QuantNet team
+%	\end{itemize}
+%}
 
 \section{GitHub and QuantNet 2.0}
 
@@ -430,9 +493,8 @@
 	\begin{itemize}	
 		\item QuantNet will be fully integrated with GitHub in the near future!
 		\item It will be easy for other researchers to find your code
-		\item Your code will be checked by the audit team!
-	\end{itemize}
-	
+		\item Your code is checked by the audit team!
+	\end{itemize}	
 }
 
 
