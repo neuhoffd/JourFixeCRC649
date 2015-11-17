@@ -5,17 +5,18 @@ _ API neu refresh
 
 
 
-~ qlogo - hohe aufl
+_ qlogo - hohe aufl
 
 _ already hosts more than 1800 Quantlets -> 2k qs
 
 ~ The Solution / S10 -> kompakter
 
-~ What is GitHub? / S12: Text gegen Logo aust
+_ What is GitHub? / S12: Text gegen Logo aust
+> check centering
 
 ~ Advantages / S14
 
-~ What I did / S15: Pkte 1+ 2 mergen
+_ What I did / S15: Pkte 1+2 mergen
 
 ~ {
 Str: 

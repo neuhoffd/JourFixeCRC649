@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.9)  17 NOV 2015 23:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.9)  17 NOV 2015 23:50
 entering extended mode
 **QuantNet2JourFixe.tex
 (C:\Users\lukas.borke\GitHub\JourFixeCRC649\Merged\QuantNet2JourFixe.tex
@@ -1573,36 +1573,50 @@ github-social-coding_crop.png (PNG copy)>] [14
 ] [16
 
 ]
+<d3_visu_RJMCMC.png, id=253, 1255.69125pt x 963.6pt>
+File: d3_visu_RJMCMC.png Graphic file (type png)
+ <use d3_visu_RJMCMC.png>
+Package pdftex.def Info: d3_visu_RJMCMC.png used on input line 561.
+(pdftex.def)             Requested size: 251.1338pt x 192.71658pt.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 10.51207pt on input line 561.
+
+Overfull \vbox (11.88339pt too high) detected at line 561
+ []
+
 [17
+
+ <C:/Users/lukas.borke/GitHub/JourFixeCRC649/Merged/d3_visu_RJMCMC.png (PNG copy)>] [18
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 553.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 553.
- (C:\Users\lukas.borke\GitHub\JourFixeCRC649\Merged\QuantNet2JourFixe.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 553.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 553.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 570.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 570.
+
+(C:\Users\lukas.borke\GitHub\JourFixeCRC649\Merged\QuantNet2JourFixe.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 570.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 570.
 Package rerunfilecheck Info: File `QuantNet2JourFixe.out' has not changed.
 (rerunfilecheck)             Checksum: 0DE8595A7F7B26549F269C66572686BE;288.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 553.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 570.
  ) 
 Here is how much of TeX's memory you used:
- 24043 strings out of 493921
- 448345 string characters out of 3144859
+ 24073 strings out of 493921
+ 448884 string characters out of 3144859
  529411 words of memory out of 3000000
- 26654 multiletter control sequences out of 15000+200000
- 53907 words of font info for 86 fonts, out of 3000000 for 9000
+ 26679 multiletter control sequences out of 15000+200000
+ 56843 words of font info for 89 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  57i,14n,96p,916b,622s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/texnansi.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/bitstrea/charter/bchb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/mathdesign/
 mdbch/md-chr8t.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chrma.pfb>
-Output written on QuantNet2JourFixe.pdf (17 pages, 444037 bytes).
+Output written on QuantNet2JourFixe.pdf (18 pages, 705465 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 10365 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 304 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 10882 words of extra memory for PDF output out of 12000 (max. 10000000)
 
