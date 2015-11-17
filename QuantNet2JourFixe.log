@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.11)  17 NOV 2015 16:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.7.11)  17 NOV 2015 17:08
 entering extended mode
 **QuantNet2JourFixe.tex
 ("D:\Documents\Dropbox\Quantnet\Jour Fixe\JourFixeCRC649\QuantNet2JourFixe.tex"
@@ -1617,7 +1617,7 @@ Package pdftex.def Info: quantlogo.png used on input line 330.
 ] <githublogo.png, id=204, 441.65pt x 115.43124pt>
 File: githublogo.png Graphic file (type png)
  <use githublogo.png>
-Package pdftex.def Info: githublogo.png used on input line 361.
+Package pdftex.def Info: githublogo.png used on input line 362.
 (pdftex.def)             Requested size: 248.59503pt x 64.97394pt.
 
 [13
@@ -1636,16 +1636,16 @@ Package pdftex.def Info: githublogo.png used on input line 361.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 541.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 541.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 543.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 543.
 
 ("D:\Documents\Dropbox\Quantnet\Jour Fixe\JourFixeCRC649\QuantNet2JourFixe.aux"
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 541.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 541.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 543.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 543.
 Package rerunfilecheck Info: File `QuantNet2JourFixe.out' has not changed.
 (rerunfilecheck)             Checksum: 371637EF04B7DB09F16DFB8FECFEC89D;287.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 541.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 543.
  ) 
 Here is how much of TeX's memory you used:
  24055 strings out of 493706
@@ -1661,7 +1661,7 @@ KTeX 2.9/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/mathdesign/mdbch/md-chr7y.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/mathdesign/mdbch/md-chr8t.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/mathd
 esign/mdbch/md-chrma.pfb>
-Output written on QuantNet2JourFixe.pdf (17 pages, 160344 bytes).
+Output written on QuantNet2JourFixe.pdf (17 pages, 161292 bytes).
 PDF statistics:
  291 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 500000)
