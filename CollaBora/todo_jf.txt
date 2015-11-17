@@ -5,7 +5,7 @@ _ API neu refresh
 
 
 
-qlogo - hohe aufl
+~ qlogo - hohe aufl
 
 already hosts more than 1800 Quantlets -> 2k qs
 
