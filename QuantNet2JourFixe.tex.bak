@@ -318,8 +318,7 @@
 }
 
 
-
-
+\section{GitHub and QuantNet 2.0}
 
 \frame{
 	\frametitle{The Solution}
@@ -329,8 +328,6 @@
 	\vspace{0.5em}
 		\includegraphics[height=0.6\textheight]{quantlogo}
 	\end{center}
-	
-
 }
 
 \frame{
