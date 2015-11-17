@@ -28,6 +28,6 @@ Publish/Ready to Search
 
 @Daniel:
 
->>> PDF-FullScreen
->> Chrome SD-Browser
-> progressbar / Matlab
+~ >>> PDF-FullScreen
+_ >> Chrome SD-Browser
+_ progressbar / Matlab
