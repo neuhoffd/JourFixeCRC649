@@ -21,7 +21,7 @@
 \headcommand {\beamer@framepages {7}{7}}
 \headcommand {\slideentry {2}{0}{8}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\sectionentry {3}{QuantNet 2.0}{9}{QuantNet 2.0}{0}}
+\headcommand {\sectionentry {3}{GitHub and QuantNet 2.0}{9}{GitHub and QuantNet 2.0}{0}}
 \headcommand {\beamer@sectionpages {7}{8}}
 \headcommand {\beamer@subsectionpages {7}{8}}
 \headcommand {\slideentry {3}{0}{9}{9/9}{}{0}}
@@ -37,11 +37,11 @@
 \headcommand {\beamer@framepages {12}{12}}
 \headcommand {\slideentry {4}{0}{13}{13/13}{}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\sectionentry {5}{GitHub and QuantNet 2.0}{14}{GitHub and QuantNet 2.0}{0}}
-\headcommand {\beamer@sectionpages {12}{13}}
-\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\slideentry {5}{0}{14}{14/14}{}{0}}
+\headcommand {\slideentry {4}{0}{14}{14/14}{}{0}}
 \headcommand {\beamer@framepages {14}{14}}
+\headcommand {\sectionentry {5}{Demonstration}{15}{Demonstration}{0}}
+\headcommand {\beamer@sectionpages {12}{14}}
+\headcommand {\beamer@subsectionpages {12}{14}}
 \headcommand {\slideentry {5}{0}{15}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
 \headcommand {\slideentry {5}{0}{16}{16/16}{}{0}}
@@ -49,7 +49,7 @@
 \headcommand {\slideentry {5}{0}{17}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
 \headcommand {\beamer@partpages {1}{17}}
-\headcommand {\beamer@subsectionpages {14}{17}}
-\headcommand {\beamer@sectionpages {14}{17}}
+\headcommand {\beamer@subsectionpages {15}{17}}
+\headcommand {\beamer@sectionpages {15}{17}}
 \headcommand {\beamer@documentpages {17}}
 \headcommand {\def \inserttotalframenumber {16}}

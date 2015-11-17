@@ -150,6 +150,7 @@
 \usepackage[latin1]{inputenc}  % enables you to input "Umlaute" as 'ä' instead of '\"a' etc.
 \usepackage{graphicx}
 
+
 % \usepackage[pdftex, pdftitle={Insert title of the talk/lecture},
 %   pdfauthor={You 1 and You 2}, pdfsubject={Insert subject of the talk/lecture},
 %   bookmarks=true, bookmarksopen=true, bookmarksnumbered=true, bookmarksopenlevel=2, colorlinks=true,
@@ -254,7 +255,8 @@
 % Now the actual text begins: %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+\usepackage{hyperref}
+\hypersetup{pdfpagemode=FullScreen}
 
 \begin{document}
 \setlength{\baselineskip}{2.9ex}
@@ -315,7 +317,9 @@
 	\textbf{Problem:} Need and want to publish our technologies and data!
 }
 
-\section{QuantNet 2.0}
+
+
+
 
 \frame{
 	\frametitle{The Solution}
@@ -509,8 +513,6 @@
 %	\end{itemize}
 %}
 
-\section{GitHub and QuantNet 2.0}
-
 \frame{
 	\frametitle{Advantages of QuantNet 2.0}
 	\begin{itemize}	
@@ -521,6 +523,8 @@
 	\end{itemize}	
 
 }
+
+\section{Demonstration}
 
 
 \frame{
