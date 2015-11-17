@@ -1,0 +1,33 @@
+_ Q link: DP Neuhoff/ 2015-039 -> Repo
+_ API neu refresh
+~ kw's für live-Suche festlegen: MCMC, GDP, ARIMA, dynamics
+
+
+
+
+qlogo - hohe aufl
+
+already hosts more than 1800 Quantlets -> 2k qs
+
+The Solution / S10
+-> kompakter
+
+What is GitHub? / S12
+Text gegen Logo aust
+
+Advantages / S14
+
+What I did / S15
+Pkte 1+ 2 mergen
+
+Str: 
+Start
+Validate/Develop
+Publish/Ready to Search
+
+
+@Daniel:
+
+>>> PDF-FullScreen
+>> Chrome SD-Browser
+> progressbar / Matlab
