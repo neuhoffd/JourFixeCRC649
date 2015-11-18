@@ -323,11 +323,16 @@
 \frame{
 	\frametitle{The Solution}
 		\begin{center}
-{\Large 		\textbf{QuantNet 2.0}}
+			{\Large 		\textbf{QuantNet 2.0}}
 
-	\vspace{0.5em}
-		\includegraphics[height=0.6\textheight]{quantlogo}
-	\end{center}
+				\vspace{0.5em}
+
+				\includegraphics[height=0.6\textheight]{qletlogo}
+				% 2 blanks between pictures
+				\ \
+				\includegraphics[height=0.6\textheight]{QN2}
+
+		\end{center}
 }
 
 \frame{
@@ -350,14 +355,18 @@
 	\frametitle{What is GitHub?}		
 		
 	\begin{center}
-		\includegraphics[width=0.8\textwidth]{githublogo}
+		\includegraphics[scale=0.25]{githublogo2}
 	\end{center}
-	
-	\vspace{0.5em}	
+	%\vspace{0.5em}	
+
 		\begin{itemize}
-			\item A distributed version control system (Git)
-			\item A collaboration platform (Hub)
+			\item {\hfil A distributed version control system (Git) }
+			\item {\hfil A collaboration platform (Hub) }
 		\end{itemize}
+
+	\begin{center}
+		\includegraphics[scale=0.33]{github-social-coding_crop}
+	\end{center}
 
 		
 }
@@ -527,19 +536,66 @@
 \frame{
 	\frametitle{What I did}
 	\begin{enumerate}
-		\item \textbf{Start:} Create GitHub repository with own code
-		\item \textbf{Develop:} Develop according to style guide
-		\item \textbf{Publish:} Audit and publish
+		\item \textbf{Start:} Create
+				\href{https://github.com/neuhoffd/RJMCMC}{GitHub repository}
+				with own code
+		\item \textbf{Develop:} Develop according to 
+				\href{https://github.com/QuantLet/Styleguide-and-Validation-procedure/blob/master/README.md}{style guide}
+		\item \textbf{Publish:} Audit and 
+				\href{https://github.com/QuantLet}{publish}
 	\end{enumerate}		
-	\textbf{Your Technology:} Easily found, used, and improved!	
+	\textbf{Your Technology:} Easily \href{http://sfb649.wiwi.hu-berlin.de/fedc/discussionPapers.php}{found}, used, and improved!	
 }
 
- \frame{
- 	\begin{center}
-\textbf{Thank you for your attention!} 	
- 	\end{center}
 
-    }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{
+	\frametitle{Interactive D3 Visualization}
+
+\begin{figure}[htb]
+	\begin{center}
+		\href{http://quantnet.wiwi.hu-berlin.de/d3/ia/}{
+			\includegraphics[scale=0.2]{d3_visu_RJMCMC}
+		}
+	\vspace{-0.25cm}
+	\caption{All Quantlets from GitHub in QuantNetXploRer, search term ``dynamics``}
+	\end{center}
+\end{figure}
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{
+	\frametitle{Collaboration Timeline via GitHub-API}
+		\begin{figure}[htb]
+		\begin{center}
+				\includegraphics[scale=0.16]{colla_visu1}
+				% 2 blanks between pictures
+				\ \
+				\includegraphics[scale=0.16]{colla_visu2}
+				\vspace{-0.25cm}
+				\caption{Snapshots of the 
+					\href{https://github.com/neuhoffd/JourFixeCRC649}
+					{development of this presentation}}
+		\end{center}
+		\end{figure}
+		
+		\vspace{-0.45cm}
+		\begin{center}
+		%\href{https://github.com/QuantLet/Git2Q3-Collaboration/blob/master/README.md}{Development of this presentation}
+		\href{https://github.com/QuantLet/Git2Q3-Collaboration/blob/master/README.md}{More examples of collaboration projects}
+		
+		\end{center}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frame{
+ 	\begin{center}
+		\textbf{Thank you for your attention!} 	
+ 	\end{center}
+}
 
 \end{document}
 
